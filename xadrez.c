@@ -3,6 +3,9 @@
 // Desafio de Xadrez - MateCheck
 // Este código inicial serve como base para o desenvolvimento do sistema de movimentação das peças de xadrez.
 // O objetivo é utilizar estruturas de repetição e funções para determinar os limites de movimentação dentro do jogo.
+
+
+// Funções recursivas.
 void moverBispo(int casas) {
     if(casas > 0) {
         printf("Cima/Direita\n");
@@ -66,7 +69,6 @@ int main() {
     } 
     
     // Nível Mestre - Funções Recursivas e Loops Aninhados
-    // Sugestão: Substitua as movimentações das peças por funções recursivas.
     moverBispo(5);
     moverTorre(5);
     moverRainha(8);
